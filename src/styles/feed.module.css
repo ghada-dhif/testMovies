@@ -1,0 +1,22 @@
+.content {
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  justify-content: center;
+}
+.div {
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+}
+.title {
+  margin-bottom: 70px;
+  font-size: 30px;
+}
+.button {
+  background-color: #60eed2;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,232 @@
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  grid-gap: 1rem;
+  grid-auto-flow: row;
+  justify-content: center;
+  background-color: black;
+}
+
+.item {
+  width: 100%;
+  background-color: red;
+  height: 40vh;
+}
+
+.card {
+  background-color: black;
+  color: white;
+  padding: 0.1rem;
+  height: 35vh;
+  margin-top: 10px;
+}
+
+.littleCard {
+  background-color: transparent;
+  padding: 1rem;
+  height: 20rem;
+  /*box-shadow: "0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%)";*/
+}
+
+@media (max-width: 700px) and (min-width: 200px) {
+  .littleCard {
+    background-color: transparent;
+    padding: 1rem;
+    height: 20rem;
+    width: 50%;
+    align-self: center;
+  }
+}
+
+.cards {
+  margin-top: 60px !important;
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(6, 1fr) !important;
+  background-color: transparent;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: relative;
+}
+
+@media (max-width: 900px) and (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+}
+@media (max-width: 599px) and (min-width: 401px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+@media (max-width: 400px) and (min-width: 290px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+@media (max-width: 289px) and (min-width: 200px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 100%;
+}
+@media (max-width: 700px) and (min-width: 200px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100%;
+  }
+}
+
+.firstDiv {
+  display: flex;
+  justify-content: end;
+}
+
+.input {
+  height: 3vh;
+  position: fixed;
+  margin-top: 2px;
+  width: 30%;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.image {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.modalImage {
+  height: 100%;
+  width: 100%;
+}
+
+table {
+  height: 100%;
+  width: 100%;
+}
+
+td {
+  border: 0.1px solid grey;
+  padding: 1px;
+}
+
+.movieTitle {
+  color: black;
+  font-weight: bold;
+  font-family: "Book Antiqua";
+}
+
+.movieDate {
+  color: grey !important;
+  font-weight: bold;
+  font-family: "Book Antiqua";
+  margin-left: 5px;
+}
+
+.rowTitle {
+  color: black;
+  font-weight: bold;
+  font-family: "Book Antiqua";
+}
+
+.rowContent {
+  color: black;
+  font-family: "Book Antiqua";
+}
+.downloadButton {
+  width: 100%;
+  background-color: black;
+  cursor: pointer;
+}
+.textButton {
+  color: white;
+  font-family: "Book Antiqua";
+}
+.project {
+  height: 100%;
+  /* background: linear-gradient(to bottom, black 0%, black 10%),  ; */
+}
+.likeButton {
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  width: max-content;
+  height: 3vh;
+}
+.buttonDisplay {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.navbar {
+  width: 100%;
+  height: 6vh;
+  position: fixed;
+  background-color: black;
+  margin-top: 0px !important;
+  display: block;
+  flex-direction: row;
+  z-index: 1;
+}
+
+.error {
+  margin-top: 150px;
+  justify-content: center;
+  display: flex;
+  font-weight: bold;
+}
+
+.search {
+  background-color: transparent;
+  display: flex;
+  justify-content: end;
+}
+
+.searchInput {
+  width: 25vw;
+  position: relative;
+}
+.navbarUl {
+  margin: 0;
+  padding: 5px;
+  list-style-type: none;
+  text-align: center;
+  background-color: #000;
+}
+.navbarLi {
+  display: inline;
+}
+.navbarA {
+  text-decoration: none;
+  padding: 0.2em 1em;
+  color: #fff;
+  background-color: #000;
+}
+.navbarTitle {
+  color: white;
+  font-family: "Book Antiqua";
+  font-weight: bold;
+  text-decoration: none;
+}
+.navbarA:hover {
+  color: #000;
+  background-color: #fff;
+}
+.navbarTitle:hover {
+  color: #000;
+  background-color: #fff;
+}
